@@ -1,0 +1,62 @@
+$(document).ready(function(){
+  $('.slider').slick({
+    arrows:true,
+    dots:true,
+    adaptiveHeight:true,
+    slidesToShow:1,
+    slidesToScroll:1,
+    speed:650,
+    easing:'ease',
+    infinite:true,
+    draggable:true,
+    swipe:true,
+    touchThreshold:25,
+    touchMove:true,
+    waitForAnimate:true,
+    variableWidth:false,
+    responsive:[
+      {
+        breakpoint:577,
+        settings:{
+          arrows:false,
+        }
+      }
+    ]
+  });
+});
+$(document).ready(function(){
+  $('.team-slider').slick({
+    arrows:false,
+    dots:true,
+    adaptiveHeight:true,
+    slidesToShow:1,
+    slidesToScroll:1,
+    speed:650,
+    easing:'ease',
+    infinite:true,
+    draggable:true,
+    swipe:true,
+    touchThreshold:25,
+    touchMove:true,
+    waitForAnimate:true,
+    variableWidth:false,
+  });
+});
+$(document).ready(function(){
+  $('.feedback-slider').slick({
+    arrows:false,
+    dots:true,
+    adaptiveHeight:false,
+    slidesToShow:1,
+    slidesToScroll:1,
+    speed:650,
+    easing:'ease',
+    infinite:true,
+    draggable:true,
+    swipe:true,
+    touchThreshold:25,
+    touchMove:true,
+    waitForAnimate:true,
+    variableWidth:false,
+  });
+});
