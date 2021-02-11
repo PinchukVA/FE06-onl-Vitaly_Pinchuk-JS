@@ -1,0 +1,22 @@
+// task b 
+var nmb = 10; 
+var str = "I`am string";
+var bol = true;
+var und;
+var Bint = 123490n;
+var nl = null;
+var user = { name: "Виталий" };
+console.log(nmb);
+console.log(typeof nmb);
+console.log(str);
+console.log(typeof str);
+console.log(bol);
+console.log(typeof bol);
+console.log(und);
+console.log(typeof und);
+console.log(Bint);
+console.log(typeof Bint);
+console.log(nl);
+console.log(typeof nl);
+console.log(user);
+console.log(typeof user);
